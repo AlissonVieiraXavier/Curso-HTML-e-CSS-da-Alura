@@ -1,0 +1,38 @@
+header{
+    background-color: rgba(128, 128, 128, 0.575);
+    padding: 20px 10px; 
+    
+}
+
+nav{
+    position:absolute;
+    top:-150px;
+    right:0;
+
+
+}
+
+#caixa{
+    width:940px;
+    position: relative;
+    margin:0 auto;
+}
+
+nav li{ 
+    display: inline;
+    margin: 0 0 0 20px;
+    letter-spacing:2px;
+
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+nav a:hover{
+    color: rgba(255, 255, 255, 0.541);)
+}
