@@ -36,3 +36,6 @@ nav a{
 nav a:hover{
     color: rgba(255, 255, 255, 0.541);)
 }
+
+.produtos li{ display: inline-block;
+}
