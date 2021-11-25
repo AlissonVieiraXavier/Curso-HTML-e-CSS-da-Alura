@@ -31,7 +31,7 @@ nav a{
     font-size: 20px;
     text-decoration: none;
     transition-property: all ;
-    transition-duration:0.5s;
+    transition-duration:0.2s;
 
 
 }
@@ -82,3 +82,9 @@ nav a:active{
     font-weight: bold;
     font-size: 20px;
 }
+ footer{
+     text-align: center;
+     background-image: url("imgs/bg.jpg");
+     background-color: rgba(128, 128, 128, 0.664);
+     color: white;
+ }
