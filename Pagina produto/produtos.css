@@ -34,8 +34,39 @@ nav a{
 
 }
 nav a:hover{
-    color: rgba(255, 255, 255, 0.541);)
+    color: rgba(255, 255, 255, 0.705);
+    transition-property: all ;
+    transition-duration:0.2s;)
 }
 
+.produtos{
+/*     border: 2px solid red; */
+   margin: 0 auto;
+   padding:20px;
+   width: 1000px;
+
+}
 .produtos li{ display: inline-block;
+    margin:5px 0 5px 20px;
+    text-align: center;
+    width:30%;
+    padding:1px;
+    border:4px solid black;
+    border-radius:36px;
+    height: 360px;
+
+}
+
+.produtos h2{
+    font-size:22px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+.produtos p{
+    margin-top: 8px;
+}
+.valor{
+    font-weight: bold;
+    font-size: 20px;
 }
