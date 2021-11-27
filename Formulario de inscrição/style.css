@@ -1,0 +1,63 @@
+
+body {
+    background-color: rgba(0, 153, 255, 0.685);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background: blue;
+    color: white;
+    height: 100px;
+    border-radius: 2px;
+
+
+}
+
+h1 {
+    text-align: center;
+    
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}
+
+#tamanhoForm{
+    border: 2px solid Blue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    height: 470px; 
+    width:450px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 200px;
+    background-color: rgba(0, 0, 255, 0.377)
+
+}
+.Formimage img{
+    left:230px;
+    bottom:460px;
+    position: relative;
+    height:460px;
+    width:230px;
+    border-radius: 10px;
+}
+
+textarea{
+    height:100px;
+    width:200px;
+    resize: none;
+    margin-top:5px;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 10px;
+    height: 22px;
+    width:80px;
+}
+input{
+    margin-top:5px;
+    margin-bottom: 10px;
+    border: blue;
+}
+label{color: white;}
