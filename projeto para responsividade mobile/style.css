@@ -14,8 +14,13 @@ p{
 }
 ul{
 margin:20px auto;
+list-style-type: none;
+
 }
 
 li{
     display:inline;
+    
 }
+a{ Color: white;
+    }
