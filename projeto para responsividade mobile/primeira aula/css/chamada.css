@@ -25,9 +25,21 @@
     font-size: 1.25rem;
     line-height: normal;
 
-    margin: 0 auto 2.5rem;
+    margin: 0 20px 2.5rem;
 }
 
 .chamada__botao {
     width: 100%;
+    border: 2px solid white;
+    padding:15px;
+    width: auto;
+    border-radius: 6%;
+}
+.chamada__botao:hover{
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.151);
+    color:rgba(255, 255, 255, 0.151);
+    padding:15px;
+    width: auto;
+    border-radius: 6%;
 }
