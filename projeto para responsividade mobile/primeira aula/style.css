@@ -27,3 +27,19 @@ a{ Color: white;
     text-decoration: none;
     }
 
+.table{
+    
+    height: auto;
+    width:50%;
+    margin: auto;
+    
+    
+}
+
+.table tr td{ text-align: center;
+border: 1px solid black;
+padding:15px;}
+
+table{
+    width:100%;
+}
