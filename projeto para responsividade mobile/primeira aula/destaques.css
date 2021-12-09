@@ -27,9 +27,10 @@ flex-direction: column ;}
     padding:10px;
     text-align:center;
 }
-/*.destaques___botton{
+.destaques___botton{
     border:2px solid #103D4A;
-    padding:30px
+    padding:15px;
+    text-align:center;
+    padding-top:20px;
 
-
-}*/
+}
