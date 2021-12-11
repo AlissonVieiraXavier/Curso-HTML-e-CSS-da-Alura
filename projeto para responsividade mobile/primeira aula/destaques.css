@@ -1,6 +1,7 @@
 .destaques {
     background-color: rgba(0, 66, 136, 0.542);
     height:auto;
+    border:2px solid #01151c;
 }
 
 .destaques___titulo{
@@ -12,25 +13,45 @@
 }
 .destaques___painel{display: flex;
 align-items:center;
-flex-direction: column ;}
+flex-direction: column ;
+}
 
 .destaques___painel-imagem{
-    width:95%;
+    width:90%;
     box-shadow: 0 2px 10px 5px #00000020;
     margin-top:1em;
 
     
 }
 .destaques___painel-texto{
-    color: #103D4A;
+    color: #01151c;
     font-weight: bold;
     padding:10px;
     text-align:center;
+    height:auto;
+}
+#centerbutton{
+    text-align: center;
+    width:100%;
+    height:auto;
+    margin-top:35px;
+    margin-bottom: 35px;;
 }
 .destaques___botton{
-    border:2px solid #103D4A;
-    padding:15px;
-    text-align:center;
-    padding-top:20px;
+  border:2px solid #01151c;
+  font-size:18px;
+  padding:16px;
+  border-radius: 2%;
+  transition-property: all;
+  transition-delay: 0.2s;
+  transition-duration: 0.4s;
+  
+}
+.destaques___botton:hover{
+    
+    font-size:18px;
+    padding:16px;
+    border-radius: 2%;
+    background-color: #01151c;
 
 }

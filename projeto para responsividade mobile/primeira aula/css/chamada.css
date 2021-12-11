@@ -29,11 +29,14 @@
 }
 
 .chamada__botao {
-    width: 100%;
+    
     border: 2px solid white;
     padding:15px;
     width: auto;
     border-radius: 6%;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
 }
 .chamada__botao:hover{
     width: 100%;
