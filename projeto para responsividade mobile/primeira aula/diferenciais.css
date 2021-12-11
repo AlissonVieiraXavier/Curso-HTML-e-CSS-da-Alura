@@ -11,10 +11,18 @@
 
 .diferenciais__item {
     max-width: 350px;
-
     box-sizing: border-box;
-
     padding: 2rem 0 2rem 5rem;
+    background-repeat: no-repeat;
+}
+.diferenciais__item--tempo{
+    background-image: url(img/icone-relogio.png);
+}
+.diferenciais__item--foco{
+    background-image: url(img/icone-dinheiro.png);
+}
+.diferenciais__item--especialistas{
+    background-image: url(img/icone-quimica.png);
 }
 
 .item__titulo {
