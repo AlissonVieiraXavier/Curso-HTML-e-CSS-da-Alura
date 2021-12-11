@@ -26,7 +26,7 @@
 }
 
 .item__titulo {
-    color: var(--cinza-escuro);
+    color: gray;
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
