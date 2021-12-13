@@ -1,3 +1,7 @@
+body{
+	background:linear-gradient(gray,rgba(128, 128, 128, 0.809),rgba(128, 128, 128, 0.481),rgba(128, 128, 128, 0.207),transparent);
+}
+
 #banner {
 	width:100%;
 }
@@ -33,8 +37,9 @@ em strong {
 }
 
 .beneficios {
-	background: #FFFFFF;
+	
 	padding: 20px;
+	
 }
 
 ul {
