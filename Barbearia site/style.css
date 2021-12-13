@@ -104,3 +104,6 @@ ul {
     padding: 3em 0;
     background: linear-gradient(#FEFEFE, #888888);
 }
+/*.principal p:not(#missao){
+	background: rgba(135, 132, 132, 0.433);
+}*/
