@@ -16,6 +16,9 @@
 
     position: absolute;
 }
+.cabecalho a{
+    color:white;
+}
 
 .cabecalho__logo {
     margin-bottom: 1rem;

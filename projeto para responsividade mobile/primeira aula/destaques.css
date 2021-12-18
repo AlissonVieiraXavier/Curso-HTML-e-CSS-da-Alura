@@ -4,6 +4,11 @@
     border:2px solid hsla(196, 93%, 6%, 0);
 }
 
+.destaques a{color:#01151c ;}
+.destaques a:hover{
+    color: white;
+}
+
 .destaques___titulo{
     color: #103D4A;
     font-weight: bold;

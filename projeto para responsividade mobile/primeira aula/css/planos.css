@@ -5,6 +5,10 @@
     padding-bottom: 3rem;
 }
 
+.planos li a{
+    color: black;
+}
+
 .planos__titulo {
     color: var(--cinza-escuro);
     font-weight: 700;
