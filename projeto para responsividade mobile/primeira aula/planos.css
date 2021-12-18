@@ -95,13 +95,15 @@
 }
 
 .cartao__botao--start {
-    border-color: var(--planos-cartao-start);
+    border-color: blue;
 }
 
 .cartao__botao--ultra {
-    border-color: var(--planos-cartao-ultra);
+    border-color: red;);
 }
 
 .cartao__botao--mega {
     border-color: var(--planos-cartao-mega);
 }
+
+ }
