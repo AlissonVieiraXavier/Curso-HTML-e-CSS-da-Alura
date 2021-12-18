@@ -13,10 +13,13 @@
     text-transform: uppercase;
     text-align: center;
     margin:1.25rem 10px;
+    font-weight: bold;
 
 
    
 }
+#pbold{
+    font-weight: bold;}
 
 .sobre__texto {
     line-height: normal;
@@ -40,4 +43,22 @@
    margin:0 auto;
    
 
+}
+@media screen and (min-width:900px) {
+    .sobre {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #01151c38;
+        padding-left: 1.2em;
+        text-align: center;
+    }
+    .sobre__texto {
+        line-height: normal;
+        margin: 2em 10em;
+       
+    }
+    #pbold{
+    font-weight: bold;}
+
+    
 }

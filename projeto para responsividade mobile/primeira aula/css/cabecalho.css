@@ -34,3 +34,24 @@
     margin-bottom: 1.25rem;
     margin-left: .7rem;
 }
+
+
+@media screen and (min-width:1000px){
+    .cabecalho {
+        color: #FFF;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border:none;
+        position: absolute;
+        padding:20px 90px;
+    }
+    .cabecalho__navegacao {
+        text-align: center;
+        padding-top: 13px;
+    }
+}
