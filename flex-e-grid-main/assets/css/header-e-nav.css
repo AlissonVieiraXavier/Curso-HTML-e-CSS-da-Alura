@@ -30,7 +30,23 @@ body{
     display:flex;
     flex-direction: column;
     align-items:flex-start;
+    background-color:#15191C ;
+    width:75vw;
+    height: 100vh;
 }
 .menu-lateral_logo{
     align-self: center;
+    width: 120px;
+    padding:16px;
+
 }
+.menu-lateral_link{
+    height: 64px;
+    color:#95999C;
+    width:100%;
+}
+.menu-lateral_link:hover{
+    border-left:7px solid white;
+    border-radius: 1px;
+}
+
