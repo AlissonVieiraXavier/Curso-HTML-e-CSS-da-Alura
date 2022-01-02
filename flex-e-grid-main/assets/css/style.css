@@ -26,3 +26,11 @@ body{
 .cabecalho-img{
     width: 40px;
 }
+.menu-lateral{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.menu-lateral_logo{
+    align-self: center;
+}
