@@ -54,32 +54,35 @@ body{
     font-size: 24px;
     position: absolute;
     left:24px;
+    padding-top: 40px;
     
 
 
 }
 
-/*.menu-lateral_link:hover{
-    border-left:7px solid white;
+.menu-lateral_link:active{
+    border-left:7px solid rgb(255, 255, 255);
     border-radius: 1px;
-}*/
+    color: white;
+    padding-left: 56px;
+}
 
 .menu-lateral_link--1::before{
-    content: '\e902';
+    content: "\e902";
 }
-.menu-lateral_link--2{
-    content:  '\e90e';
+.menu-lateral_link--2::before{
+    content:  "\e90e";
 }
-.menu-lateral_link--3{
+.menu-lateral_link--3::before{
     content: "\e909";
 }
-.menu-lateral_link--4{
+.menu-lateral_link--4::before{
     content: "\e903";
 }
-.menu-lateral_link--5{
+.menu-lateral_link--5::before{
     content: "\e900";
 }
-.menu-lateral_link--1{
+.menu-lateral_link--6::before{
     content: "\e90a";
 }
 
