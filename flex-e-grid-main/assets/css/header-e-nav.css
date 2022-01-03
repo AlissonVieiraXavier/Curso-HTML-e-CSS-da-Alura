@@ -43,10 +43,43 @@ body{
 .menu-lateral_link{
     height: 64px;
     color:#95999C;
-    width:100%;
+    padding-left: 64px;
+    display:flex;
+    align-items:center;
 }
-.menu-lateral_link:hover{
+.menu-lateral_link::before{
+    content: "";
+    width:24px;
+    height: 64px;
+    font-size: 24px;
+    position: absolute;
+    left:24px;
+    
+
+
+}
+
+/*.menu-lateral_link:hover{
     border-left:7px solid white;
     border-radius: 1px;
+}*/
+
+.menu-lateral_link--1::before{
+    content: '\e902';
+}
+.menu-lateral_link--2{
+    content:  '\e90e';
+}
+.menu-lateral_link--3{
+    content: "\e909";
+}
+.menu-lateral_link--4{
+    content: "\e903";
+}
+.menu-lateral_link--5{
+    content: "\e900";
+}
+.menu-lateral_link--1{
+    content: "\e90a";
 }
 
