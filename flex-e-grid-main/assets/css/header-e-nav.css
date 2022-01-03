@@ -33,6 +33,7 @@ body{
     background-color:#15191C ;
     width:75vw;
     height: 100vh;
+    transition:0.24s;
 }
 .menu-lateral_logo{
     align-self: center;
@@ -88,4 +89,5 @@ body{
 
 .active{
 display: none;
+transition:500ms;
 }

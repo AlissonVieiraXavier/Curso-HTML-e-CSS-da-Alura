@@ -3,6 +3,6 @@ var menuNav = document.querySelector(".menu-lateral");
 
 botaoMenu.addEventListener("click", () => {
     menuNav.classList.toggle("active");
-    //menuNav.style.display = "none"
+
 
 })
