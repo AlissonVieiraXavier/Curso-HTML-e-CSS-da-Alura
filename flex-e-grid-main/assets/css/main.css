@@ -17,29 +17,42 @@
     overflow: hidden;
     background-color: #2C343A;
 }
+
+.cartao__destaque{
+    grid-column: span 2;
+}
 .cartao__conteudo{
     padding: 16px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.cartao__conteudo p:nth-child(5){
+    color:#95999C;
 }
 .cartao__titulo{
     font-size:1.2rem;
     font-weight:700;
+    grid-column: span 2;
 }
 .cartao__perfil{
     color:#95999C;
     font-size:0.9rem;
-    
+    grid-column: span 2;
 }
 .cartao__info{
     display:flex;
     align-items:center;
     color:#95999C;
 }
-.cartao__info--tempo{
+.cartao__info--tempo::before{
     content:"\e90c";
     margin-right: 8px;
 }
-.cartao__info--visualizacao{
+
+.cartao__info--visualizacao::before{
     content:"\e90f";
+    color:#95999C;
 }
 .cartao__botao{
     display:flex;
@@ -58,6 +71,7 @@
 } 
 .cartao__botao--destaque{
     width: 100%;
+    grid-column: span 2;
 
 }
 .cartao__botao--destaque::before{
