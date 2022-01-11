@@ -9,7 +9,7 @@
 .cartao__conteudo{
     display: grid;
     grid-template-columns: 1fr;
-        
+    gap: 8px;    
 }
 .cartao{
     width: 100%;
