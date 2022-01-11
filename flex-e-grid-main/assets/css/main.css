@@ -7,7 +7,10 @@
     font-size: 1.5em;
     font-weight:700;
 }
-
+.titulo-secao{
+    font-size:1.2rem;
+    font-weight:bold;
+}
 
 .cartao{
     width: 100%;
@@ -81,3 +84,8 @@
 .cartao__botao--destaque::before{
     margin-right: 8px;
 }
+.secao{
+    display:grid;
+    gap: 16px;
+}
+
