@@ -25,12 +25,21 @@ body {
     flex-direction: column;
     align-items:center;
     justify-content:space-evenly;
-    border: 1px solid red;
     position:absolute;
     right:0%;
-    width: 300px;
+    width: 200px;
+    background: linear-gradient(#ca8400,#ca83009a);
+    right:-100%
     
 }
 .navbar a{
     padding:20px;
+    font-weight: 700;
 }
+.navbar a i{
+    padding-left: 10px;
+
+}
+.navbar--ativo{
+    right:0%;
+} 
