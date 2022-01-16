@@ -34,6 +34,7 @@ body {
     transition: .25s;
     border-radius: 0px ;
     border-bottom-left-radius: 10px;
+    display: none;
     
 }
 .navbar a{
@@ -47,4 +48,5 @@ body {
 .navbar--ativo{
     right:0%;
     transition: .25s;
+    display:flex;
 } 
