@@ -9,16 +9,17 @@ botao.addEventListener("click", function () {
 
 //carrosel
 
-const imgs = document.getElementById("img-carrosel");
-const img = document.querySelectorAll("#img-carrosel img")
+var imgs = document.getElementById("img-carrosel");
+var img = document.querySelectorAll("#img-carrosel img")
 
 var idx = 0;
 function carrosel() {
     idx++;
 
-    if (idx > imgs.length - 1) {
+    if (idx > img.length - 1) {
         idx = 0;
     }
-    img.style.transform = 'translateX()'
+    imgs.style.transform = `translateX(${-idx * 500}px)`;
 
 }
+setInterval(carrosel(), 1000);
