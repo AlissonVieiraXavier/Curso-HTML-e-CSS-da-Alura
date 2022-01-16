@@ -9,11 +9,12 @@ body {
     justify-content:space-between;
     align-items:center;
     background: linear-gradient(#fca400,#ca8400);
-    height: 6em;
+    height: 5.5em;
     
 }
 .logotipo{
-    width: 30%;
+    width: 28%;
+    max-width: 120px;
 }
 .header-top i{
     font-size: 25px;
@@ -29,7 +30,10 @@ body {
     right:0%;
     width: 200px;
     background: linear-gradient(#ca8400,#ca83009a);
-    right:-100%
+    right:-100%;
+    transition: .25s;
+    border-radius: 0px ;
+    border-bottom-left-radius: 10px;
     
 }
 .navbar a{
@@ -42,4 +46,5 @@ body {
 }
 .navbar--ativo{
     right:0%;
+    transition: .25s;
 } 
