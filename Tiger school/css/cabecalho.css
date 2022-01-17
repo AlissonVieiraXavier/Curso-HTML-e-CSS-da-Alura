@@ -52,7 +52,16 @@ body {
 } 
 
 /*               START - MAIN              */
+.start-main h1{
+    text-align: center;
+    font-size:2em;
+    font-weight: 700;
+    padding:20px;
+}
 
+.video-desktop{
+    display:none;
+}
 
 
 .container__video{
@@ -63,15 +72,3 @@ body {
 
 }
 
-.container__content {
-    
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
