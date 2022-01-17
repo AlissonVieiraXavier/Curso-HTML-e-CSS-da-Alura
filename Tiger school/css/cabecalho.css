@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -50,3 +50,28 @@ body {
     transition: .25s;
     display:flex;
 } 
+
+/*               START - MAIN              */
+
+
+
+.container__video{
+    width: 100vw;
+    height:auto;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.container__content {
+    
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
