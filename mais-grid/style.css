@@ -1,0 +1,10 @@
+body{
+    display:grid;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodapé";
+    grid-template-columns:auto;
+    grid-template-rows: 100px 100vh auto;
+
+}
