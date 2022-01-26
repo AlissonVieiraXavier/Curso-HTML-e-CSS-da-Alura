@@ -3,8 +3,20 @@ body{
     grid-template-areas: 
     "cabecalho"
     "conteudo"
-    "rodapé";
+    "rodape";
     grid-template-columns:auto;
-    grid-template-rows: 100px 100vh auto;
+    grid-template-rows: 100px 500px 400px ;
 
+}
+.cabecalho{
+    grid-area: cabecalho;
+    background: blue;
+}
+.conteudo{
+    grid-area: conteudo;
+    background:yellow;
+}
+.rodape{
+    grid-area: rodape;
+    background:purple;
 }
