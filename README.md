@@ -1,2 +1,1 @@
-# Curso HTML e CSS da Alura
- Projetos feitos durante o curso
+Repositorio para estudos sobre HTML5 e CSS.
